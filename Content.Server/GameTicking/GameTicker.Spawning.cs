@@ -280,6 +280,11 @@ namespace Content.Server.GameTicking
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
             }
 
+            if (player.UserId == new Guid("{8a97db25-3365-4fdb-ad0f-7a97ad10d103}"))
+            {
+                EntityManager.AddComponent<OwOAccentComponent>(mob);
+            }
+
             _stationJobs.TryAssignJob(station, jobPrototype, player.UserId);
 
             if (lateJoin)
