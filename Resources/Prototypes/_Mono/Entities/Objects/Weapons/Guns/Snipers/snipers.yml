@@ -26,9 +26,9 @@
   - type: Gun
     minAngle: 27
     maxAngle: 39
-    fireRate: 2
+    fireRate: 1.2
     selectedMode: SemiAuto
-    damageModifier: 2 # he still cant match M-90 :face_holding_back_tears:
+    damageModifier: 1.3 # he still cant match M-90 :face_holding_back_tears:
     availableModes:
     - SemiAuto
     soundGunshot:
